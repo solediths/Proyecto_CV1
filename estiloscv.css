@@ -1,0 +1,80 @@
+.redonda { 
+border-radius: 50%;
+border: 5px solid darkblue
+width: 200px;
+height: 200px;
+}
+
+body {
+font-family:'Roboto', sans-serif;
+color: blue; 
+}
+
+h2 {
+color:navy;
+text-align: center;
+}
+
+p {
+justify-content:center;
+}
+
+header, section {
+width: 100%;
+margin: 0 auto;
+display: flex;
+}
+
+article {
+width: 60%;
+}
+
+img {
+margin-left: 400px; 
+margin-bottom: 15px;
+}
+
+a, a:link, a:visited {
+text-decoration: none;
+color: rgba(160, 12, 135, 0.966);
+font-weight: bold;
+}
+
+header {
+background-color: blue;
+color: aliceblue;
+padding-top: 16px;
+padding-right: 16px;
+}
+
+.progress {
+margin-left: 8px;
+}
+
+.contenedor {
+width: 80%;
+max-width: 1000px;
+margin:0 auto;
+overflow: hidden;
+background-color: lightgoldenrodyellow;
+}
+
+aside {
+width: 30%;
+padding: 20px;
+}
+
+.svg {
+    height: 20px;
+}
+
+.bloque{
+    width: 20px;
+    heigth:20px;
+    background-color: black;
+}
+
+.centro{
+    width: 50px
+    margin: 0px auto;
+}
